@@ -15,6 +15,7 @@ The project follows a two-stage NLP pipeline:
 BERT is responsible for generating meaningful contextual representations of the input text, while Logistic Regression performs the final classification.
 
 ---
+![ml](https://github.com/rushikeshwalode06-cod/SarcasmAI---Intelligent-Sarcasm-Detection-using-BERT/blob/main/Text_Bert_ss.png?raw=true)
 
 ## 🧠 Models Used
 
