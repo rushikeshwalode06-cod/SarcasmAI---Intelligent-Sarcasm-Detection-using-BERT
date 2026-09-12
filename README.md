@@ -134,7 +134,7 @@ This project instead uses:
 
 **BERT Embeddings + Logistic Regression**
 
-### Advantages
+### ⭐ Advantages
 
 * BERT captures contextual meaning in text.
 * Better representation of word relationships compared with basic bag-of-words approaches.
@@ -142,7 +142,7 @@ This project instead uses:
 * BERT can be used as a reusable feature extractor.
 * The approach requires less training than full BERT fine-tuning.
 
-### Limitations
+### 🛑 Limitations
 
 * BERT embedding extraction can be computationally expensive.
 * BERT itself is not fine-tuned for the specific classification task.
@@ -225,7 +225,7 @@ The main idea of this project is to combine the strengths of **BERT** and **Logi
 
 ---
 
-##  Conclusion
+## 🎯 Conclusion
 
 This project demonstrates an effective approach to **text classification using BERT embeddings and Logistic Regression**. The `bert-base-uncased` model is used to convert text headlines into meaningful contextual embeddings, while Logistic Regression is used as the final classifier.
 
