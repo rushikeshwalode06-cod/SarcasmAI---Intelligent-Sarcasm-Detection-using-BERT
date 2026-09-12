@@ -49,14 +49,14 @@ The repository can be organized into the following structure:
 
 ## 🛠️ Technologies Used
 
-* Python
-* PyTorch
-* Hugging Face Transformers
-* BERT
-* Scikit-learn
-* Pandas
-* NumPy
-* Jupyter Notebook
+* 🐍 Python
+* 🔥 PyTorch
+* 🤗 Hugging Face Transformers
+* 🧠 BERT
+* 📊 Scikit-learn
+* 🐼 Pandas
+* 🔢 NumPy
+* 📓 Jupyter Notebook
 
 ---
 
