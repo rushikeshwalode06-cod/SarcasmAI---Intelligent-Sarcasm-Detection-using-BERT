@@ -74,7 +74,7 @@ The dataset can be adapted for different text classification tasks depending on 
 
 ## 🔄 Methodology
 
-### 1. Data Preprocessing
+### 1.🧹 Data Preprocessing
 
 The text dataset is prepared before being passed to BERT.
 
@@ -84,13 +84,13 @@ Typical preprocessing includes:
 * Encoding target labels
 * Splitting data into training and testing sets
 
-### 2. Text Tokenization
+### 2. 🔤 Text Tokenization
 
 The input text is tokenized using the BERT-base-uncased tokenizer.
 
 The tokenizer converts natural language text into tokens and prepares them in the format required by BERT.
 
-### 3. BERT Embedding Extraction
+### 3. 🧠 BERT Embedding Extraction
 
 BERT is used as a feature extractor rather than being fine-tuned.
 
@@ -98,13 +98,13 @@ For each text sample, BERT generates a contextual representation. The **[CLS] to
 
 Each text is therefore converted into a **768-dimensional numerical vector**.
 
-### 4. Logistic Regression Classification
+### 4. 📊 Logistic Regression Classification
 
 The generated BERT embeddings are used as input features for Logistic Regression.
 
 The classifier learns the relationship between the BERT embeddings and the target labels.
 
-### 5. Prediction
+### 5. 🔮 Prediction
 
 For unseen text, the same process is followed:
 
