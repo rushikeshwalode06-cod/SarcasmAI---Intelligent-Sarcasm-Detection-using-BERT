@@ -222,3 +222,14 @@ The main idea of this project is to combine the strengths of **BERT** and **Logi
 
 **Text → BERT-base-uncased → 768-Dimensional Embedding → Logistic Regression → Classification**
 
+---
+
+##  Conclusion
+
+This project demonstrates an effective approach to **text classification using BERT embeddings and Logistic Regression**. The `bert-base-uncased` model is used to convert text headlines into meaningful contextual embeddings, while Logistic Regression is used as the final classifier.
+
+The dataset is divided into training and testing sets using stratified sampling, and the generated BERT embeddings are used to train the classification model. The trained model is then evaluated using **accuracy and a classification report**.
+The project also provides a prediction function that can classify new text as **"Sarcastic"** or **"Not Sarcastic"**, making the trained model useful for testing unseen headlines. The Logistic Regression model is saved as `sarcasm_classifier.pkl` for future use.
+Overall, this project shows how **pre-trained transformer models such as BERT can be combined with traditional machine-learning algorithms** to build a practical text classification system.
+
+
